@@ -7,7 +7,7 @@ function connect() {
     let Password = document.getElementById("Password_Input").value;
 
     try {
-        websocket = new WebSocket('ws://' + IP + ':' + Port); // Connect to the server 
+        websocket = new WebSocket('wss://' + IP + ':' + Port); // Connect to the server 
     } catch (error) {
         console.log(error);
         return;
