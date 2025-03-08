@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Fashion.css">
+    <title>Remote Access</title>
+</head>
+
+<body>
+    <div id = "Main_Div">
+        <label id = "IP_Label" for="IP_Input">IP Address:</label>
+        
+        <input type="password" id = "IP_Input" rows="2", cols="30">
+
+        <label id = "Port_Label" for="Port_Input">Port:</label>
+
+        <input type = "password" id = "Port_Input" rows="2", cols="30" >
+
+        <input id = "Password_Input" rows="2", cols="30" placeholder="Enter Password">
+
+        <button id="Submit_Button" type="submit" onclick="connect()">Submit</button>
+    </div>
+    <div style="width: 100%; height: 100%;" id = "Visual_Display">
+        <img style = "object-fit: contain" onmousemove="mousemove(event)" onmousedown="mouseDown(event)" onmouseup="mouseUp(event)" onkeydown="keyDown(event)" onkeyup="keyUp(event)" id = "screenshot" src="" alt="Logo" width="100%" height="100%" tabindex="0">
+    </div>
+</body>
+
+
+<script defer src="./Pain.js"></script> <!-- Put down here to ensure everything else loads first -->
+
+</html>

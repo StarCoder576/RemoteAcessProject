@@ -1,0 +1,89 @@
+body {
+    background-color: #000000;
+  
+  }
+
+  textarea {
+    resize: none;
+}
+
+#Main_Div {
+    display:block ;
+}
+
+#Visual_Display {
+    display:none
+}
+
+
+#IP_Label {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#IP_Input {
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#Port_Label {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+#Port_Input {
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}  
+
+#Password_Input {
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+#Submit_Button {
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
