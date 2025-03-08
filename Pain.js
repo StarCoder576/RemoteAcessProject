@@ -12,6 +12,7 @@ function connect() {
         console.log(error);
         return;
     }
+    
 
     document.getElementById("Main_Div").style.display = "none";
     document.getElementById("Visual_Display").style.display = "block";
